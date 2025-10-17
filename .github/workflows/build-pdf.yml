@@ -1,0 +1,60 @@
+name: build-pdf
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare Jekyll include
+        run: |
+          mkdir -p site/_includes
+          cp src/resume.md site/_includes/resume.md
+
+      - name: Generate PDF with Pandoc (Docker)
+        run: |
+          docker run --rm -v "$PWD":/data pandoc/latex \
+            site/_includes/resume.md \
+            -f markdown \
+            -t pdf \
+            -o resume.pdf \
+            --pdf-engine=xelatex \
+            -V papersize:a4 \
+            -V geometry:margin=1in \
+            -V mainfont="DejaVu Sans"
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Hitesh_Dhruna_Resume
+          path: resume.pdf
+
+  pages:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Prepare Jekyll include
+        run: |
+          mkdir -p site/_includes
+          cp src/resume.md site/_includes/resume.md
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
