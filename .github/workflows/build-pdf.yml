@@ -13,15 +13,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Prepare Jekyll include
-        run: |
-          mkdir -p site/_includes
-          cp src/resume.md site/_includes/resume.md
-
       - name: Generate PDF with Pandoc (Docker)
         run: |
           docker run --rm -v "$PWD":/data pandoc/latex \
-            site/_includes/resume.md \
+            src/resume.md \
             -f markdown \
             -t pdf \
             -o resume.pdf \
@@ -47,10 +42,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Prepare Jekyll include
+      - name: Generate static site
         run: |
-          mkdir -p site/_includes
-          cp src/resume.md site/_includes/resume.md
+          docker run --rm -v "$PWD":/data pandoc/latex \
+            src/resume.md \
+            -f markdown \
+            -t html5 \
+            -s \
+            --template=site/template.html \
+            -o site/index.html \
+            -V pagetitle="Hitesh Dhruna — Resume"
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload site
