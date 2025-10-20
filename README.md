@@ -26,7 +26,7 @@ Previously at **Flyiin GmbH**, I was the **sole DevOps and InfraOps engineer**, 
 
 **Languages & Tools:**  
 Kubernetes (GKE, Helm, Istio) · Terraform · Docker · GCP · GitHub Actions · GitLab CI · Elixir/Erlang · Rust ·  
-NewRelic · Splunk · YAML · HCL · Infrastructure-as-Code · Developer Platforms · CI/CD Automation
+NewRelic · Splunk · HCL · Infrastructure-as-Code · Developer Platforms · CI/CD Automation
 
 ---
 
