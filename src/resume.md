@@ -1,71 +1,61 @@
 # Hitesh Dhruna
-Berlin, Germany · +49 176 59674800 · [hitesh@dhruna.com](mailto:hitesh@dhruna.com) · [linkedin.com/in/hiteshdhruna](https://linkedin.com/in/hiteshdhruna)
+Berlin, Germany | +49 176 59674800 | hitesh@dhruna.com | linkedin.com/in/hiteshdhruna
 
 ---
 
 ## 🧭 Professional Summary
-Platform Engineer with 15+ years of experience designing and scaling production systems across Kubernetes, GCP, and multi-cloud environments.  
-Proven success in optimizing workloads, modernizing CI/CD pipelines, and leading complex infrastructure improvements.  
-Deep expertise in container orchestration, developer platform design, and infrastructure automation to deliver secure, high-performance systems.
+Platform Engineer with 15+ years of experience designing, operating, and optimizing scalable cloud platforms across Kubernetes and GCP. Expert in infrastructure automation, CI/CD modernization, and observability. Proven track record of reducing operational overhead, improving service reliability, and enabling developer velocity through automation, metrics-driven optimizations, and SRE best practices.
 
 ---
 
 ## ⚙️ Core Skills
-**Kubernetes (GKE, Helm, Istio)** · **Terraform** · **GCP** · **Docker** · **GitHub Actions** · **GitLab CI** · **Codefresh** · **Harness** ·  
-**Elixir/Erlang** · **Rust** · **YAML** · **HCL** · **NewRelic** · **Splunk** · **Wiz** · **Infrastructure-as-Code** · **Developer Platforms** · **GitOps**
+**Containers & Orchestration:** Kubernetes (GKE, Helm, Istio), Docker · **Cloud & Infrastructure:** GCP, Terraform, Infrastructure-as-Code (HCL), Wiz, Linux · **CI/CD & Automation:** GitHub Actions, GitLab CI, Codefresh, Harness, GitOps · **Monitoring & Observability:** New Relic, Splunk, Prometheus, Grafana · **Scripting & Reliability:** Bash, Python, SLOs/SLIs, Incident Response, Cost Optimization
 
 ---
 
 ## 💼 Professional Experience
 
-### Senior Systems Engineer (Developer Platform) — Priceline  
+### Senior Systems Engineer — Priceline
 **Berlin, Germany · May 2021 – Present**
 
-#### Platform Optimization & Reliability
-- Improved Kubernetes workload efficiency and reliability across 100+ production services through resource tuning and deployment refinement.  
-- Maintained and continuously improved **GitHub Actions workflows** used across multiple engineering repositories, ensuring compatibility with evolving toolchains, language versions, and infrastructure updates.  
-- Supported engineering teams through build image maintenance, implementing **multi-version matrix builds** and optimized base containers for consistent CI/CD performance.  
-- Implemented infrastructure changes through **Terraform**, adjusting resource configurations, service plans, and scaling policies in coordination with infrastructure teams.  
-- Investigated cross-service connectivity and DNS issues, coordinating resolution with platform and network teams through structured ticket workflows.
-
-#### Security & CI/CD Improvements
-- Led ongoing vulnerability remediation and **container image refresh** initiatives across CI/CD pipelines to meet security and compliance SLAs.  
-- Improved build reliability by upgrading and deprecating outdated Actions, tightening dependency management, and introducing validation steps to reduce failed deployments.  
-- Authored documentation and runbooks covering CI/CD maintenance, image lifecycle workflows, and pipeline troubleshooting practices.
-
-#### Cross-Team Collaboration & Incident Handling
-- Participated in live incident bridges and async debug sessions, providing root-cause insights and verifying fixes across environments.  
-- Operated autonomously on infrastructure and CI/CD maintenance tasks while coordinating with cloud, security, and platform teams for reviews and rollout approvals.  
-- Ensured clear communication through tickets, incident summaries, and engineering Slack channels to maintain transparency and operational readiness.
+- Reduced compute cost by 25–30% across 100+ microservices through metrics‑driven right‑sizing (Kubernetes HPA thresholds, requests/limits) and deployment pattern optimizations.
+- Improved latency stability by 20–25% and reduced pod churn by 60% by tuning Istio traffic policies, resource limits, and probe configurations.
+- Maintained and improved GitHub Actions workflows across multiple repositories, upgrading actions/runners and tightening dependency management to reduce flaky jobs and re‑runs.
+- Owned base image lifecycle, implementing matrix builds and version control to standardize CI/CD environments.
+- Implemented Terraform-based resource and scaling changes in collaboration with infrastructure teams.
+- Drove container image refresh and vulnerability remediation across pipelines to meet compliance timelines and authored runbooks for CI/CD and image workflows.
+- Participated in incident response bridges, refining pre‑deploy validation and runbooks to shorten recovery time and improve service reliability.
 
 ---
 
-### System Engineer — Flyiin GmbH  
-**Berlin, Germany · Jun 2020 – Apr 2021**
+### System Engineer — Flyiin GmbH
+**Berlin, Germany · June 2020 – April 2021**
 
-- Operated autonomously as the sole DevOps and InfraOps engineer, managing CI/CD pipelines, Kubernetes infrastructure, and GCP environments end-to-end.  
-- Built reusable **Terraform modules** for GKE and Aiven, enabling multi-region infrastructure deployments.  
-- Created **Rocky Linux–based Elixir containers** optimized for AMD EPYC, improving performance by 25%.  
-- Developed **GitLab CI pipelines** that reduced deployment times by 60% through automation.  
-- Implemented **Kubernetes-native monitoring** with Splunk integration for production observability.
-
----
-
-### Senior DevOps Engineer — Accion Labs  
-**India · 2015 – 2020**
-
-- Automated Kubernetes setup with Jenkins, reducing manual provisioning by 80%.  
-- Integrated **Docker Image Scanning (Clair)** and **SonarQube** for improved security and code quality.  
-- Designed CI/CD pipelines for microservices across multiple environments.
+- Operated autonomously as the sole DevOps/InfraOps engineer, managing cloud infrastructure, CI/CD, and platform automation end‑to‑end.
+- Built reusable Terraform modules for GKE and Aiven, enabling multi‑region deployments and consistent environment provisioning.
+- Developed optimized Rocky Linux–based Elixir containers for AMD EPYC, improving application performance by ~25%.
+- Created GitLab CI pipelines reducing deployment times by 60% through fully automated build/test/release stages.
+- Implemented Kubernetes‑native monitoring integrated with Splunk for production observability and rapid issue isolation.
 
 ---
 
-### Earlier Roles — AsterMinds / Praxis / Lionbridge  
-**2005 – 2015**  
-- Focused on automation, virtualization, and build/release engineering for production systems.  
-- Supported distributed environments and early infrastructure automation initiatives.
+### Senior DevOps Engineer — Accion Labs
+**India · September 2015 – May 2020**
+
+- Automated Kubernetes cluster setup using Jenkins pipelines, reducing manual provisioning by ~80%.
+- Integrated Docker Image Scanning (Clair) and SonarQube into pipelines for security and quality gates.
+- Supported CI/CD for multiple client environments across cloud and on‑prem setups.
+
+---
+
+### Earlier DevOps & Release Engineering Roles — AsterMinds / Praxis / Lionbridge
+**2005 – 2015**
+
+- Focused on automation, virtualization, and build/release engineering supporting production environments.
 
 ---
 
 ## 🎓 Education
-**Bachelor of Commerce (B.Com)** — Karnataka State Open University
+**Bachelor of Commerce (B.Com), Karnataka State Open University**
+
+Certifications: CKA, CKAD, CKS (expired, pending recertification)
