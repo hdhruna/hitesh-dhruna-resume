@@ -32,7 +32,7 @@ NewRelic · Splunk · HCL · Infrastructure-as-Code · Developer Platforms · CI
 
 ## 🗂️ Quick Links
 
-- 📄 [View My Full Resume](./resume.md)  
+- 📄 [View My Full Resume](./src/resume.md)  
 - 💼 [LinkedIn Profile](https://linkedin.com/in/hiteshdhruna)  
 - ✉️ [Email Me](mailto:dhruna.hitesh@gmail.com)
 
